@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "SF Pro Rounded";
+  src: url("/fonts/SF-Pro-Rounded-Semibold.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Rounded";
+  src: url("/fonts/SF-Pro-Rounded-Semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-sf-pro-rounded:
+    "SF Pro Rounded", "SF Pro Display", -apple-system, sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  cursor: pointer;
+}
+
+@keyframes gallery-down {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(-50% - 13px));
+  }
+}
+
+@keyframes gallery-up {
+  from {
+    transform: translateY(calc(-50% - 13px));
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.animate-gallery-down {
+  animation-name: gallery-down;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.animate-gallery-up {
+  animation-name: gallery-up;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* One loop = 9 slides × 156px + 8 gaps × 64px; duplicated row → seamless; same direction as .animate-marquee (→ right) */
+@keyframes marquee-paywall-game-lag {
+  from {
+    transform: translateX(calc(-9 * 156px - 8 * 64px));
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes marquee-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}

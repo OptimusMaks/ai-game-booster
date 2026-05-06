@@ -1,0 +1,14 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group">
+<g id="Group_2">
+<path id="Path" fill-rule="evenodd" clip-rule="evenodd" d="M16.9413 17.3333V11.3333C16.9413 10.2293 16.0453 9.33333 14.9413 9.33333C13.8373 9.33333 12.9413 10.2293 12.9413 11.3333V21.3333L10.232 20.4307C9.44133 20.1667 8.56933 20.3733 7.97867 20.9627C7.06267 21.8787 7.132 23.3813 8.12533 24.2107L13.532 28.716C14.0133 29.1147 14.6173 29.3333 15.24 29.3333H21.2533C22.5987 29.3333 23.732 28.332 23.9 26.9973L24.624 21.2067C24.8013 19.7867 23.8267 18.4813 22.416 18.2453L16.9413 17.3333Z" stroke="var(--stroke-1, white)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path_2" d="M6.94667 10.6667H8.28" stroke="var(--stroke-0, white)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path_3" d="M22.9467 10.6667H21.6133" stroke="var(--stroke-0, white)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path_4" d="M20.6 5.01333L19.6533 5.94667" stroke="var(--stroke-0, white)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path_5" d="M9.28 5.01333L10.2267 5.94667" stroke="var(--stroke-0, white)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path_6" d="M14.9467 2.66667V4" stroke="var(--stroke-0, white)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Path_7">
+</g>
+</g>
+</svg>
